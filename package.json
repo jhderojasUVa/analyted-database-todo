@@ -25,12 +25,12 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/jhderojasUVa/liquidbase-mssql-version-control.git"
+    "url": "git+https://github.com/jhderojasUVa/analyted-database-todo.git"
   },
-  "author": "Sky Ad Tech Team",
+  "author": "Jesus Angel Hernandez de Rojas",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/jhderojasUVa/liquidbase-mssql-version-control/issues"
+    "url": "https://github.com/jhderojasUVa/analyted-database-todo/issues"
   },
-  "homepage": "https://github.com/jhderojasUVa/liquidbase-mssql-version-control#readme"
+  "homepage": "https://github.com/jhderojasUVa/analyted-database-todo#readme"
 }
