@@ -3,6 +3,8 @@
   "version": "1.0.0",
   "description": "Docker and Liquibase for MSSQL Todo database",
   "scripts": {
+    "docker:run": "./scripts/run-docker.sh",
+    "liquibase:update": "./scripts/liquibase-update.sh",
     "prepare": "husky install",
     "pre-commit": "lint-staged --relative",
     "release": "standard-version"

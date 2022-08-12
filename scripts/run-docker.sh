@@ -1,5 +1,5 @@
 #!/bin/bash
-CONTAINER="sql-todo"
+CONTAINERNAME="sqltodo"
 
 # Download and run docker container
 # User: sa
@@ -24,7 +24,7 @@ sleep 30
 
 # Create table if needed
 echo "Creating ToDos if is not there..."
-sqlcmd -U sa -P 'yourStrong(!)Password' -i ./generate_database.sql
+sqlcmd -U sa -P 'yourStrong(!)Password' -i ./scripts/generate_database.sql
 
 # Finished
 echo "Finished! Enjoy!"
