@@ -17,6 +17,6 @@ Needed:
 
 1. Clone this
 2. Run `npm install`. To install dependencies (remember conventional-commits and release process)
-3. Run `npm run docker:run`. To run the docker image on your system
-4. Run `npm run liquibase:update`. To update and populate the database
+3. Run `npm run docker:run`. To run the docker image on your system. This will also create (if needed) the database on the docker image
+4. Run `npm run liquibase:update`. To update and populate the database with data
 
