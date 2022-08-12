@@ -15,6 +15,7 @@ if [ ! "$(docker ps -q -f name=$CONTAINERNAME)" ]; then
     echo "Starting the container, please wait..."
     docker run -e "ACCEPT_EULA=Y" -e "SA_PASSWORD=yourStrong(!)Password" \
            -e "TZ=Europe/London" -p 1433:1433 --name $CONTAINERNAME \
+           --network analyted_network \
            -d mcr.microsoft.com/mssql/server:2019-CU15-ubuntu-20.04
 fi
 
