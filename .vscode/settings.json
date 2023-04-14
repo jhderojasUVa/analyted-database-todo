@@ -4,4 +4,5 @@
     },
     "eslint.validate": ["javascript"],
     "files.eol": "\n",
+    "sarif-viewer.connectToGithubCodeScanning": "off",
 }
