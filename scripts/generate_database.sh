@@ -1,3 +1,3 @@
 #!/bin/bash
-echo "Creating ToDos if is not there..."
-sqlcmd -U sa -P 'yourStrong(!)Password' -i ./scripts/generate_database.sql
+echo "Creating ToDos database and tables if is not there..."
+/opt/mssql-tools/bin/sqlcmd -U sa -P "yourStrong(!)Password" -i /start/scripts/generate_database.sql
